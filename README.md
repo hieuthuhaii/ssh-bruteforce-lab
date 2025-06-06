@@ -13,13 +13,16 @@ Thực hiện tấn công brute force vào dịch vụ SSH, đánh giá mức đ
 > Xem chi tiết tại [`scenario.md`](scenario.md)
 
 ## 📂 Cấu trúc thư mục
-├── attack/ # Mã nguồn tấn công và log đầu ra
-├── defense/ # Cấu hình phòng thủ
-├── screenshots/ # Hình ảnh mô phỏng
-├── tools/ # Hướng dẫn cài đặt các công cụ
-├── report/ # Báo cáo đầy đủ (PDF nếu có)
-├── README.md # File giới thiệu chính
-└── scenario.md # Mô tả chi tiết các bước thực nghiệm
+ssh-bruteforce-lab/
+├── brute.py # Script brute-force SSH dùng Paramiko
+├── users.txt # Danh sách tên đăng nhập mẫu
+├── passwords.txt # Danh sách mật khẩu mẫu
+├── tools/ # Hướng dẫn cài đặt các công cụ sử dụng
+├── screenshots/ # Hình ảnh minh họa tấn công và phòng thủ
+├── report/ # Chứa báo cáo đầy đủ 
+├── scenario.md # Mô tả chi tiết các bước thực nghiệm
+└── README.md # Giới thiệu chính của dự án
+
 
 ## 🛠 Công cụ sử dụng
 - Kali Linux / Ubuntu Server
